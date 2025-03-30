@@ -4,29 +4,17 @@ export const NAVLINKS = [
     path: "#home",
   },
   {
-    name: "Our Team",
+    name: "About Us",
     path: "#about",
   },
 
   {
-    name: "Our Services",
+    name: "Services",
     path: "#services",
   },
   {
     name: "Software",
     path: "#software",
-  },
-  {
-    name: "Pricing",
-    path: "#pricing",
-  },
-  {
-    name: "Meeting",
-    path: "#appointment",
-  },
-  {
-    name: "FAQ",
-    path: "#faq",
   },
   {
     name: "Contact",

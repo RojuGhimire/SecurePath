@@ -37,10 +37,10 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-3 w-full font-bold">
                 <IoCallSharp className="text-secondary h-[24px] w-[24px]" />
-                <span>+61 450 545 073</span>
+                <span>+977 9840031548</span>
                 <span>|</span>
                 <IoMdMail className="text-secondary h-[24px] w-[24px]" />
-                <span>Info@skillspotaustralia.edu.au</span>
+                <span>securepath@account.com</span>
               </div>
             </div>
             {/* Social Media & Login */}
