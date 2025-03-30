@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700&display=swap");
+}
+
+@layer base {
+  *,
+  html,
+  body {
+    @apply scroll-smooth;
+  }
+  .h {
+    @apply border border-red-500;
+  }
+  .flex_center {
+    @apply flex justify-center items-center;
+  }
+  .flex_wrap_center {
+    @apply flex justify-center items-center flex-wrap;
+  }
+  .flex_col_center {
+    @apply flex flex-col items-center justify-center;
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.footer-animation li a {
+  text-decoration: none;
+  position: relative;
+  transition: 1s;
+  cursor: pointer;
+}
+.footer-animation li a::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: #16af9d;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  transition: 0.5s;
+}
+.footer-animation li a:hover::after {
+  width: 100%;
+}
+/* Global styles or specific CSS module */
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+.slick-dots li button:before {
+  color: #000;
+}
+.slick-dots li.slick-active button:before {
+  color: #000;
+}
